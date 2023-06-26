@@ -1,3 +1,4 @@
+// destructuring
 export default function createReportObject (employeesList) {
   return {
     allEmployees: {
@@ -8,3 +9,4 @@ export default function createReportObject (employeesList) {
     }
   };
 }
+
