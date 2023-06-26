@@ -1,4 +1,3 @@
-// hoisting
 export default function taskBlock (trueOrFalse) {
   if (trueOrFalse) {
     var task = true;

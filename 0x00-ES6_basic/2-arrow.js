@@ -1,4 +1,3 @@
-// ES6 methods
 export default function getNeighborhoodsList () {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
