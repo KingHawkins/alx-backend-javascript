@@ -1,11 +1,9 @@
-export default function createIteratorObject (report) {
+export default function createIteratorObject(report) {
   const array = [];
-  [...Object.values(report.allEmployees)].forEach(value => {
-    for (const item of value) {
+  Object.values(report.allEmployees).forEach((value) => {
+    value((item) => {
       array.push(item);
-    }
-  }
-  );
+    });
+  });
   return array;
 }
-

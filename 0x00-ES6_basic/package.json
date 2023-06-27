@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
-    "check-lint": "lint [0-9]*.js",
+    "check-lint": "eslint --fix *.js",
     "test": "jest",
     "dev": "node"
   },
@@ -12,6 +12,8 @@
     "babel-jest": "^29.5.0",
     "babel-node": "^0.0.1-security",
     "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "jest": "^25.0.0",
     "ts-node": "^10.9.1"
   }
