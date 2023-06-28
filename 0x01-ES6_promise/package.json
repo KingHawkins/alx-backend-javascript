@@ -1,10 +1,10 @@
 {
-
+  "type": "module",
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
     "check-lint": "eslint --fix *.js",
     "test": "jest",
-    "dev": "npx babel-node"
+    "dev": "node"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",
