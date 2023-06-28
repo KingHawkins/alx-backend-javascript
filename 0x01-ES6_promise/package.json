@@ -4,11 +4,12 @@
     "lint": "./node_modules/.bin/eslint",
     "check-lint": "eslint --fix *.js",
     "test": "jest",
-    "dev": "NODE_NO_WARNINGS=1 NODE_OPTIONS=--experimental-specifier-resolution=node node"
+    "dev": "npx babel-node"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "babel-jest": "^29.5.0",
     "babel-plugin-module-resolver": "^5.0.0",
