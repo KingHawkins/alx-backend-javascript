@@ -24,7 +24,6 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-underscore-dangle': 'off',
-    'import/extensions': 'off',
     'class-methods-use-this': 'off',
     'max-classes-per-file': 'off'
   },
